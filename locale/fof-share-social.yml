@@ -1,0 +1,22 @@
+fof-share-social:
+  admin:
+    settings:
+      title: FriendsOfFlarum Share Social
+  forum:
+    discussion:
+      share_button: Partager
+    modal:
+      title: Partager
+  lib:
+    networks:
+      facebook: Facebook
+      linkedin: LinkedIn
+      my_mail: My World
+      odnoklassniki: Odnoklassniki
+      qq: QQ
+      qzone: QZone
+      reddit: Reddit
+      telegram: Telegram
+      twitter: Twitter
+      vkontakte: VKontakte
+      whatsapp: WhatsApp

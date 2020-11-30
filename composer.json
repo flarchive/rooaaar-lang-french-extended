@@ -1,0 +1,59 @@
+{
+  "name": "rooaaar/lang-french-extended",
+  "description": "French language pack for Flarum's third-party extensions.",
+  "keywords": [
+    "flarum",
+    "extension",
+    "french",
+    "locale",
+    "translation"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.14"
+  },
+  "suggest": {
+    "qiaeru/lang-french": "French language pack for Flarum and its bundled extensions."
+  },
+  "support": {
+    "issues": "https://github.com/rooaaar/lang-french-extended/issues",
+    "source": "https://github.com/rooaaar/lang-french-extended"
+	},
+  "authors": [
+    {
+      "name": "Hiob",
+      "email": "hello@hiob.fr",
+      "role": "Developer"
+    },
+    {
+      "name": "Miles Cellar",
+      "email": "milescellar@protonmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ROOAAAR\\LangFrenchExtended\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "French Extended by ROOAAAR!",
+      "icon": {
+        "name": "far fa-flag",
+        "background": "linear-gradient(90deg, rgb(58, 100, 157) 20%, rgb(209, 62, 50) 80%)",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center",
+        "color": "#FFFFFF"
+      }
+    },
+    "flarum-locale": {
+			"code": "fr",
+			"title": "Français"
+    },
+    "flagrow": {
+      "discuss": "https://discuss.flarum.org/d/20039-rooaaar-the-french-language-pack-extended"
+    }
+  }
+}
