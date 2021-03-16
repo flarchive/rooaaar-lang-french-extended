@@ -1,0 +1,14 @@
+fof-recaptcha:
+  admin:
+    permissions:
+      post_without_captcha: Créez des messages et des discussions sans captcha
+    settings:
+      help_text: Obtenez vos informations d’identification Google reCAPTCHA <a>ici</a>.
+      secret_key_label: Clé secrète
+      site_key_label: Clé du site
+      title: FriendsOfFlarum reCAPTCHA
+      type_label: type de reCAPTCHA
+  forum:
+    error: Une erreur s’est produite lors de la soumission de reCAPTCHA. Réessayer.
+validation:
+  recaptcha: La validation de reCAPTCHA a échouée.

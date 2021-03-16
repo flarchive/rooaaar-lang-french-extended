@@ -1,0 +1,44 @@
+fof-subscribed:
+  admin:
+    menu:
+      description: Configurer les abonnements des utilisateur (par défaut)
+    permission:
+      subscribe_to_discussion_created: Recevoir une notification lors d’une nouvelle discussion
+      subscribe_to_post_unapproved: Autorisé à recevoir des notifications sur les nouveaux messages non approuvés
+      subscribe_to_user_created: Recevoir une notification lorsqu’il y a un nouvel utilisateur
+  email:
+    body:
+      newDiscussion: |
+        Hey {recipient_display_name},
+        {actor_display_name} a commencé une nouvelle discussion: {discussion_title}
+        Pour afficher cette nouvelle discussion, consultez le lien suivant:
+        {discussion_url}
+        ---
+        {post_content}
+      newUser: |
+        Hey {recipient_display_name},
+        {actor_display_name}vient de rejoindre {forum_url}.
+        Pour afficher le profil de ce nouvel utilisateur, consultez le lien suivant:
+        {user_url}
+      postUnapproved: |
+        Hey {recipient_display_name},
+        {actor_display_name} a créé un message qui n’a pas été automatiquement approuvé dans {discussion_title}
+        Pour voir ce nouveau message, consultez le lien suivant:
+        {post_url}
+        ---
+        {post_content}
+    subject:
+      newDiscussion: '[Subscribed | New Discussion] {title}'
+      newUser: '[Subscribed | New User] {username}'
+      postUnapproved: '[Subscribed | Unapproved] {username} a publié {title}'
+  forum:
+    notifications:
+      discussion_created_text: '{username} a créé une discussion'
+      post_unapproved_text: '{username} a publié un message qui nécessite une approbation'
+      user_created_text: '{username} vient de s’inscrire'
+    settings:
+      defaults_label: 'Définir "{setting}" activé par défaut'
+      forced_label: 'Forcer l’activation de  "{setting}" pour tout le monde'
+      notify_discussion_created_label: Quelqu’un a créé une discussion
+      notify_post_unapproved_label: Un message publié doit être approuvé
+      notify_user_created_label: Quand quelqu’un s’inscrit

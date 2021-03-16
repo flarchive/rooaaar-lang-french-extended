@@ -1,0 +1,13 @@
+therealsujitk:
+  admin:
+    gifs:
+      giphyAPIkey: Clé API Giphy
+  forum:
+    gifs:
+      label: Insérer le GIF
+      loading: Chargement ...
+      loadmore: Charger plus
+      noresults: Aucun résultat
+      search: Chercher
+      searchbar: Chercher des GIFs
+      title: Selectionner un GIF
